@@ -1,0 +1,651 @@
+
+
+body {
+  background-image: url("achtergrond 2.png");
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: Caviar Dreams;
+
+}
+
+/* header
+--------------------------------------------*/
+
+header {
+  background-color: rgb(242,215,60);
+  height: 100px;
+}
+
+/* Logo
+----------------------------*/
+
+#logo {
+    display: inline-block;
+    transition: 0.3s;
+    width: 100px;
+}
+
+.logo {
+  width: 100px;
+  float: left; 
+  margin: 10px 30px 10px 20px;
+}
+
+/* Links 
+----------------------------*/
+
+a {
+  display: block;
+  }
+
+#link {
+
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  &:hover, &:active, &:focus
+    background: darken(#eee, 3%);
+  color: white;
+
+}
+
+#link {
+  width: 90px;
+  float: left;
+  box-sizing: border-box;
+  &:last-child
+  border-right: none;
+
+}
+
+.socialmedia {
+  width: 250px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+#socialmedia {
+  width: 30px;
+  float: right;
+  margin-right: 20px;
+  color: rgb(69,65,62);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  margin-top: 20px;
+  width: 90px;
+  margin-left: 130px;
+  z-index: 999;
+  background-color: rgba(255,165,0, 0.8);
+  border-radius: 20px;
+
+}
+
+#mobile {
+    display: none;
+    margin-top: 50px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+#hamburger {
+
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 0;
+  text-indent: 200%;
+  overflow: hidden;
+  background: rgba(255,255,255,.8) url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-size: 80%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  transition: all 400ms ease;
+  &.expanded
+  transform: rotate(90deg);
+  background-color: transparent;
+  border: 0;
+}
+
+.desktop {
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin: 40px 10px 10px 0px;
+  font-size: 14pt;
+}
+
+/*Hover links
+----------------------------------------*/
+ #link:hover {
+  color: orange;
+}
+
+#socialmedia:hover {
+   -webkit-filter: grayscale(100%);
+}
+
+/*Homepagina
+-----------------------------------------------------------*/
+/* Slideshow
+-----------------------------------------------*/
+
+
+/* Slider */
+#slider {
+  width:700px; /* slider width */
+  height:450px; /* slider height */
+  margin:20px auto 0;
+  background-color:black;
+  overflow:hidden; /* Hide the overflowed element */
+
+}
+
+#slider .slide {
+  width:700px; /* slide width */
+  height:450px; /* slide height */
+  float:left;
+}
+
+#slide-1 {
+  background-color: white;
+
+}
+#slide-2 { 
+  background-image: url("logo definitief.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  }
+
+#welkom {
+  font-family: Caviar Dreams;
+  font-size: 5vw;
+  color: rgb(163,193,56);
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+#slide-3 {  
+  background-image: url("Pop-upstore+plaats.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;}
+#slide-4 {}
+#slide-5 {}
+
+/* Navigation */
+#slider-nav {
+  display:block;
+  width:300px;
+  margin:10px auto;
+  text-align:center;
+}
+
+#slider-nav a {
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background-color:#bbb;
+  font-size:0;
+  color:transparent;
+  overflow:hidden;
+  text-indent:-99px;
+  margin:0 2px 0 0;
+  border:2px solid white;
+  -webkit-box-shadow:0 1px 2px rgba(0,0,0,.4);
+  -moz-box-shadow:0 1px 2px rgba(0,0,0,.4);
+  box-shadow:0 1px 2px rgba(0,0,0,.4);
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  border-radius:100%;
+}
+
+#slider-nav .active {
+  background-color:green;
+}
+
+/* Details */
+.slide {
+  font:normal normal 11px Arial,Sans-Serif;
+  color:black;
+}
+
+.slide > div {
+  padding:10px 15px;
+}
+
+
+
+
+
+
+/* Overonspagina 
+-----------------------------------------------------------*/
+.overonspagina {
+  display: none;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(163,193,56);
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.centerbox {
+  width: 1096px;
+  margin: 0px auto;
+}
+
+
+.algemeen {
+  width: 77vw;
+  height: auto;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 25px;
+  background-color: white;
+}
+
+.kader {
+  border: 2px solid rgb(163,193,56);
+  border-radius: 20px;
+  width: 250px;
+  height: auto;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.persona {
+  width: 190px;
+  height: auto;
+  margin: 10px 30px 10px 30px;
+  border-radius: 95px;
+
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  font-size: 17pt;
+  color: rgb(163,193,56);
+  font-weight: bold;
+}
+
+.naam {
+  background-color: rgb(163,193,56);
+  margin: 0px auto;
+  border-radius: 20px;
+  width: 190px;
+
+}
+
+.tekst {
+  width: 230px;
+  margin: 10px 10px 10px 10px;
+  line-height: 25px;
+}
+
+
+/* Eventspagina
+-----------------------------------------------------------*/
+
+.eventspagina {
+  display: none;
+}
+
+/* Blogpagina
+-----------------------------------------------------------*/
+
+.blogpagina {
+  display: none;
+}
+
+.box {
+  margin-top: 20px;
+  width: 340px;
+  border: 2px solid rgb(163,193,56);
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  word-wrap: break-word;
+  background-color: white;
+}
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  color: rgb(163,193,56);
+  font-size: 11pt;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tekst2 {
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.blogfoto {
+  margin-top: 10px;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contactpagina
+-----------------------------------------------------------*/
+
+.contactpagina {
+  display: none;
+}
+
+.form {
+  width: 410px;
+  border: 2px solid rgb(163,193,56);
+  float: left;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+form {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.velden {
+  width: 360px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(163,193,56);
+  border: none;
+}
+
+.beschrijving {
+  height: 110px;
+}
+
+.verzenden {
+  font-size: 14pt;
+  background-color: rgb(163,193,56);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.map {
+  margin-top: 20px;
+  float: left;
+  margin-left: 40px;
+}
+
+#map {
+  width: 640px;
+}
+
+
+/* Footer
+-----------------------------------------------------------*/
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+#fruit {
+    max-width: 50%;
+    height: auto;
+}
+
+/* MediaQueries
+-----------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+/* Overonspagina
+-------------------------------------------*/
+
+.centerbox {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.kader {
+  width: 210px;
+}
+
+.tekst {
+  width: 190px;
+}
+
+.persona {
+  width: 150px;
+
+}
+
+/* Blogpagina
+------------------------------------------*/
+
+.box {
+  width: 290px;
+}
+
+
+.tekst2 {
+  width: 250px;
+}
+
+.blogfoto {
+  width: 250px;
+}
+
+  /* Contactpagina
+-----------------------------------------------------------*/
+
+
+.form {
+  width: 342px;
+}
+
+
+.velden {
+  width: 292px;
+}
+
+.beschrijving {
+  height: 110px;
+}
+
+.verzenden {
+  font-size: 14pt;
+}
+
+#map {
+  width: 572px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+
+
+/*Overonspagina
+-------------------------------------------*/
+.centerbox {
+  width: 800px;
+}
+
+.kader {
+  width: 170px;
+}
+
+.tekst {
+  width: 150px;
+}
+
+.persona {
+  width: 110px;
+
+}
+
+.naam {
+  width: 160px;
+
+}
+
+/* Blogpagina
+------------------------------------------*/
+
+.box {
+  width: 240px;
+}
+
+
+.tekst2 {
+  width: 200px;
+}
+
+.blogfoto {
+  width: 200px;
+}
+
+  /* Contactpagina
+-----------------------------------------------------------*/
+
+
+.form {
+  width: 262px;
+}
+
+
+.velden {
+  width: 212px;
+}
+
+.beschrijving {
+  height: 110px;
+}
+
+.verzenden {
+  font-size: 14pt;
+}
+
+#map {
+  width: 492px;
+}
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+/* Overonspagina
+---------------------------------------*/
+.centerbox {
+  width: 240px;
+}
+
+.kader {
+  width: 210px;
+}
+
+.tekst {
+  width: 190px;
+}
+
+.persona {
+  width: 150px;
+
+}
+
+.naam {
+  width: 190px;
+
+}
+
+/* Blogpagina
+------------------------------------------*/
+
+.box {
+  width: 210px;
+}
+
+
+.tekst2 {
+  width: 170px;
+}
+
+.blogfoto {
+  width: 170px;
+}
+
+  /* Contactpagina
+-----------------------------------------------------------*/
+
+
+.form {
+  width: 242px;
+}
+
+
+.velden {
+  width: 192px;
+}
+
+.beschrijving {
+  height: 110px;
+}
+
+.verzenden {
+  font-size: 14pt;
+}
+
+#map {
+  width: 182px;
+}
+}
+

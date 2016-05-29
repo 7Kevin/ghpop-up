@@ -1,0 +1,36 @@
+
+
+body {
+  background-image: url("splashscreen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+a {
+    position:absolute;
+    bottom: 0.5vw;
+    right:20.5vw;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 22vw;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(163,193,56);
+    color: white;
+}
+
+button{
+    position:absolute;
+    bottom: 0.5vw;
+    right:20.5vw;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 22vw;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(163,193,56);
+    color: white;
+}
