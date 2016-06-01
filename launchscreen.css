@@ -11,7 +11,7 @@ a {
     position:absolute;
     bottom: 0.5vw;
     right:20.5vw;
-    font-family:'caviar_dreamsregular';
+    font-family: myFirstFont;
     font-weight: bold;
     font-size: 3vw;
     width: 22vw;
@@ -25,7 +25,7 @@ button{
     position:absolute;
     bottom: 0.5vw;
     right:20.5vw;
-    font-family: caviar_dreamsregular;
+    font-family: myFirstFont;
     font-weight: bold;
     font-size: 3vw;
     width: 22vw;
@@ -44,4 +44,9 @@ button{
          url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
 }
