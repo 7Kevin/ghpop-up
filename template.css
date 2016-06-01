@@ -307,6 +307,11 @@ span {
   line-height: 25px;
 }
 
+.bottom {
+  height: 600px;
+  width: auto;
+}
+
 
 /* Eventspagina
 -----------------------------------------------------------*/
@@ -362,6 +367,11 @@ h4 {
   margin-right: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
+}
+
+.bottomblog {
+  height: 1040px;
+  width: auto;
 }
 
 /* Contactpagina
