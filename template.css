@@ -4,7 +4,8 @@ body {
   background-image: url("achtergrond 2.png");
   background-repeat: repeat;
   background-size: cover;
-  font-family: Caviar Dreams;
+  font-family:'Caviar Dreams';
+  font-weight:normal;
 
 }
 
@@ -441,6 +442,37 @@ footer {
 #fruit {
     max-width: 50%;
     height: auto;
+}
+
+@font-face {
+font-family: 'Caviar Dreams';
+font-style: normal;
+font-weight: normal;
+src: local('Caviar Dreams'), url('CaviarDreams.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Caviar Dreams Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Caviar Dreams Bold Italic'), url('CaviarDreams_BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Caviar Dreams Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Caviar Dreams Bold'), url('CaviarDreams_Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Caviar Dreams Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Caviar Dreams Italic'), url('CaviarDreamsItalic.woff') format('woff');
 }
 
 /* MediaQueries
