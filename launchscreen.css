@@ -11,8 +11,8 @@ a {
     position:absolute;
     bottom: 0.5vw;
     right:20.5vw;
-    font-family:'Caviar Dreams Bold';
-    font-weight:normal;
+    font-family:Caviar Dreams;
+    font-weight: bold;
     font-size: 3vw;
     width: 22vw;
     border-radius: 20px;
@@ -25,43 +25,12 @@ button{
     position:absolute;
     bottom: 0.5vw;
     right:20.5vw;
-    font-family:'Caviar Dreams Bold';
-    font-weight:normal;
+    font-family:Caviar Dreams;
+    font-weight: bold;
     font-size: 3vw;
     width: 22vw;
     border-radius: 20px;
     border: none;
     background-color: rgb(163,193,56);
     color: white;
-}
-
-@font-face {
-font-family: 'Caviar Dreams';
-font-style: normal;
-font-weight: normal;
-src: local('Caviar Dreams'), url('CaviarDreams.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Caviar Dreams Bold Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Caviar Dreams Bold Italic'), url('CaviarDreams_BoldItalic.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Caviar Dreams Bold';
-font-style: normal;
-font-weight: normal;
-src: local('Caviar Dreams Bold'), url('CaviarDreams_Bold.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Caviar Dreams Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Caviar Dreams Italic'), url('CaviarDreamsItalic.woff') format('woff');
 }
