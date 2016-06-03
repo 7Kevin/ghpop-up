@@ -446,7 +446,7 @@ footer {
 @font-face {
 font-family: "Caviar Dreams";
 src: url('Caviar Dreams.eot') format('embedded-opentype'),
-url('Caviar Dreams.otf') format('opentype');
+url('Caviar Dreams.ttf') format('opentype');
 
 }
 
