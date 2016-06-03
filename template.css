@@ -443,13 +443,6 @@ footer {
     height: auto;
 }
 
-@font-face {
-font-family: "Caviar Dreams";
-src: url('Caviar Dreams.eot') format('embedded-opentype'),
-url('Caviar Dreams.ttf') format('opentype');
-
-}
-
 /* MediaQueries
 -----------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
